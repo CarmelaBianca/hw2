@@ -1,0 +1,13 @@
+#n{
+  position: absolute;
+  font-size: 17px;
+  right: 340px;
+  top: 336px;
+  font-weight: 800;
+}
+.icon{
+  width: 37px;
+  height: 37px;
+  position: absolute;
+  right: 245px;
+}

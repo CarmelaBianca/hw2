@@ -1,0 +1,81 @@
+body {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    background: #ededed;
+  }
+  
+  .dati, .submit{
+    border: none;
+    outline: none;
+    background: none;
+  }
+  .cont {
+    position: relative;
+    width: 40%;
+    height: 70%;
+    margin: 0 auto;
+  }
+  
+  form {
+    margin-top: 15%;
+  }
+  
+  
+  .submit {
+    display: block;
+    margin: 0 auto;
+    width: 260px;
+    height: 36px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    background: rgb(38, 161, 209);
+    text-transform: uppercase;
+  }
+  h2 {
+    margin-bottom: 10px;
+    font-weight: normal;
+    width: 100%;
+    font-size: 26px;
+    text-align: center;
+  }
+  .dati {
+    display: block;
+    padding-bottom: 5px;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(0,0,0,0.4);
+    width: 260px;
+    margin: 25px auto 0;
+    text-align: center;
+  }
+  p {
+    display: block;
+    font-size: 11px;
+    width: 260px;
+    margin: 15px auto 0;
+    text-align: center;
+    color:#6d6767;
+  }
+  .submit:hover{
+    
+    font-size: 20px;
+    
+  }
+  a{
+    text-decoration: none;
+  }
+  p#errore_nome, p#errore_cognome, p#errore_email, p#errore_email_nonvalida, 
+  p#errore_email_inuso, p#errore_data,  p#errore_user,  p#errore_user_inuso,  p#errore_password{
+    background: rgba(0,0,0,0.2);
+    border-radius: 8px;
+    color: rgb(240, 41, 41);
+    margin-top: 2px;
+    font-size: 12px;
+  }
+  .hidden {
+    display: none;
+  }
+
+
+
